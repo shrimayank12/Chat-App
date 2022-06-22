@@ -8,7 +8,7 @@ import { database } from '../../../misc/firebase';
 function assembleMessage(profile, chatId) {
   return {
     roomId: chatId,
-    auther: {
+    author: {
       name: profile.name,
       uid: profile.uid,
       createdAt: profile.createdAt,
