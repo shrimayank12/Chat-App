@@ -35,7 +35,7 @@ const Top = () => {
       </div>
 
       <div className="d-flex justify-content-between align-items-center">
-        <span>todo</span>
+        <span>Notification</span>
         <RoomInfoBtnModal />
       </div>
     </div>
